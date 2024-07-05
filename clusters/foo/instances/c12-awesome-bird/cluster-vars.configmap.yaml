@@ -1,0 +1,12 @@
+# DO NOT EDIT
+# This configmap is automatically generated and controlled by our Flux Terraform module
+# Any modifications to this file will be overwritten by Terraform
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: cluster-vars
+  namespace: flux-system
+  annotations:
+    app.kubernetes.io/managed-by: Terraform
+data:
+  {"cluster_domain":"c04.prod.shiftbase.com","cluster_environment":"prod","cluster_environment_domain":"prod.shiftbase.com","cluster_flux_namespace":"flux-system","cluster_flux_version":"v2.0.0-rc.5","cluster_google_dns_project":"shiftbase","cluster_google_project":"shiftbase","cluster_k8s_api_proxy_loadbalancer_ip":"172.20.0.4","cluster_name":"c04-sure-turtle","cluster_private_loadbalancer_ip":"172.20.0.3","cluster_public_loadbalancer_ip":"34.90.198.250","cluster_type":"shiftbase-production","cluster_vpc_name":"production-9fae","cluster_vpc_subnetwork_name":"production-9fae-euw4"}
